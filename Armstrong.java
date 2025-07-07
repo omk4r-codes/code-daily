@@ -1,5 +1,3 @@
-import java.lang.reflect.Array;
-
 public class Armstrong {
     public static void main(String[] args) {
         // int num = 153;
