@@ -1,4 +1,4 @@
-public class Arrays {
+public class Lesson03_Arrays {
     public static void main(String[] args) {
 
        // syntax:
@@ -28,4 +28,4 @@ public class Arrays {
         System.out.print(c + ", ");
        }
     }
-}
+} 

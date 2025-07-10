@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class VarArgs {
+public class Lesson08_VariableArguments {
     public static void main(String[] args) {
         int res = sum(1,2,3,4,5,6,6);
         System.out.println(res);
@@ -13,4 +13,4 @@ public class VarArgs {
         }
         return res;
     }
-}
+} 

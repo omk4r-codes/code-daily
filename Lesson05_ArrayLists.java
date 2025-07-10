@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // slower than array
 
-public class Arraylists {
+public class Lesson05_ArrayLists {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -57,4 +57,4 @@ public class Arraylists {
 
         System.out.println(arr5);
     }
-}
+} 

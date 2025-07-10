@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TwoDArray {
+public class Lesson04_TwoDArrays {
     public static void main(String[] args) {
         int[][] arr = new int[3][4];
         // we can also declare like this since individual array size may vary:
@@ -46,4 +46,4 @@ public class TwoDArray {
 
         sc.close();
     }
-}
+} 

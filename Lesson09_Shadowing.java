@@ -1,4 +1,4 @@
-public class Shadowing {
+public class Lesson09_Shadowing {
     static int x = 10;
     public static void main(String[] args) {
         System.out.println(x);
@@ -20,4 +20,4 @@ public class Shadowing {
     {
         System.out.println(x);
     }
-}
+} 

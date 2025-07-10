@@ -1,4 +1,4 @@
-public class Overloading {
+public class Lesson07_MethodOverloading {
     public static void main(String[] args) {
         sum(2,1);       // runs 1st fn
         sum(2,1, 5);       // runs 2nd fn
@@ -19,4 +19,4 @@ public class Overloading {
         }
         return res;
     }
-}
+} 

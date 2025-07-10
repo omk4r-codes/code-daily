@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class ReverseArr {
+public class Lesson12_ArrayReversal {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
         reverse(arr);
@@ -22,4 +22,4 @@ public class ReverseArr {
         arr[start] = arr[end];
         arr[end] = temp;
     }
-}
+} 

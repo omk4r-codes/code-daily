@@ -5,7 +5,7 @@
 // and the copy is passed to the function
 // so the function cannot change the value of the original variable
 
-public class Functions {
+public class Lesson06_Functions {
     public static void main(String[] args) {
         String name = "John";
         System.out.println(name);
@@ -28,4 +28,4 @@ public class Functions {
     }
 
 
-}
+} 

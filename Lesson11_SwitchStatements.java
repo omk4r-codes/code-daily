@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Switch {
+public class Lesson11_SwitchStatements {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String fruit = "mango";     //sc.next();
@@ -53,4 +53,4 @@ public class Switch {
         }
         sc.close();
     }
-}
+} 

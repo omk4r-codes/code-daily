@@ -1,4 +1,4 @@
-public class StringCompare {
+public class Lesson10_StringComparison {
     public static void main(String[] args) {
         String str1 = new String("Kunal");
         String str2 = new String("Kunal");
@@ -9,4 +9,4 @@ public class StringCompare {
             System.out.println("not same");
         }
     }
-}
+} 

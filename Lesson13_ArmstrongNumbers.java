@@ -1,4 +1,4 @@
-public class Armstrong {
+public class Lesson13_ArmstrongNumbers {
     public static void main(String[] args) {
         // int num = 153;
         // System.out.println(armstrong(num));
@@ -26,4 +26,4 @@ public class Armstrong {
                 System.out.print(i + ", ");
         }
     }
-}
+} 
