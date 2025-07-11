@@ -28,7 +28,7 @@ public class Lesson05_ArrayLists {
         // print / access index:
         for(int i = 0; i < arr.size(); i++){
             System.out.println(arr.get(i));
-            // note that we use .size() in arrayList and length in arrays.
+            // note that we use .size() in arrayList and .length in arrays.
             // note that we use arr.get(i) to access the element by index; arr[i] doesn't work here!
         }
         

@@ -11,7 +11,7 @@ public class Lesson07_MethodOverloading {
     }
 
     // 2.
-    static int sum(int ...n){
+    static int sum(int ...n){       // varArgs parameter 
         System.out.println("2nd fn");
         int res = 0;
         for (int i : n) {

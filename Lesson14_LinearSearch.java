@@ -1,10 +1,13 @@
 public class Lesson14_LinearSearch {
     public static void main(String[] args) {
-        // int[] arr = {2,3,5,6,1,8,9};
+        int[] arr = {2,3,5,6,1,8,9};
         // System.out.println(linearSearch(arr, 8));
-        String name = "0mk4r#shwar";
-        char target = '#';
-        System.out.println(search(name, target));
+        // String name = "0mk4r#shwar";
+        // char target = '#';
+        // System.out.println(search(name, target));
+
+        System.out.println(searchInRange(arr, -1, 9, 89));
+        System.out.println(min(arr));
 
     }
 
@@ -42,5 +45,28 @@ public class Lesson14_LinearSearch {
         }
 
         return false;
+    }
+
+    // search in range:
+    static int searchInRange(int[] arr, int startIndex, int endIndex, int target){
+        if(endIndex >= arr.length)
+            endIndex = arr.length - 1;
+        if(startIndex < 0)
+            startIndex = 0;
+        for(int i = startIndex; i <= endIndex; i++){
+            if(arr[i] == target)
+                return i;
+        }
+        return -1;
+    }
+
+    static int min(int[] arr){
+        int min = Integer.MAX_VALUE;
+        for (int ele : arr) {
+            if(ele < min){
+                min = ele;
+            }
+        }
+        return min;
     }
 }
