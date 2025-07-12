@@ -1,13 +1,23 @@
+import java.util.Arrays;
+
 public class Lesson14_LinearSearch {
     public static void main(String[] args) {
-        int[] arr = {2,3,5,6,1,8,9};
+        // int[] arr = {2,3,5,6,1,8,9};
         // System.out.println(linearSearch(arr, 8));
         // String name = "0mk4r#shwar";
         // char target = '#';
         // System.out.println(search(name, target));
 
-        System.out.println(searchInRange(arr, -1, 9, 89));
-        System.out.println(min(arr));
+        // System.out.println(searchInRange(arr, -1, 9, 89));
+        // System.out.println(min(arr));
+
+        int[][] arr2 = {
+            {1,2,3,4},
+            {1,4},
+            {7,2,9}
+        };
+
+        System.out.println(Arrays.toString(searchIn2dArr(arr2, 9)));
 
     }
 
@@ -68,5 +78,16 @@ public class Lesson14_LinearSearch {
             }
         }
         return min;
+    }
+
+    static int[] searchIn2dArr(int[][] arr, int target){
+        for(int i = 0; i < arr.length; i++){
+            for(int j = 0; j < arr[i].length; j++){
+                if(arr[i][j] == target){
+                    return new int[] {i, j};
+                }
+            }
+        }
+        return new int[] {-1, -1};
     }
 }
