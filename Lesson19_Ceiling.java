@@ -1,9 +1,11 @@
+// ceiling = we want bigger element or equal element to target
+
 public class Lesson19_Ceiling {
     public static void main(String[] args) {
         // int[] arr = {2,3,5,9,14,16,18};
         int[] arr = {2,3,5,9,14,16,18};
-        System.out.println(ceiling(arr, 987));
-        System.out.println(ceiling2(arr, 980));
+        System.out.println(ceiling(arr, 9));
+        System.out.println(ceiling2(arr, 15));
     }
 
     static int ceiling(int[] arr, int target){
